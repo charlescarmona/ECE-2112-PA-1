@@ -25,7 +25,7 @@ def rotate_word(text):
 
 print (rotate_word("pyhton"))
 ```
-#**2. Username Builder Problem**
+# **2. Username Builder Problem**
 
 Create a function that takes two strings and returns the two strings with its letters converted to lowercase and conjoined with a period.
 
@@ -50,3 +50,30 @@ Through doing all of the code shown above, the final function for this certain p
 ```python
 def make_username(first_name, last_name):
   first_name = first_name.lower().replace(" ", "")
+  last_name = last_name.lower().replace(" ", "")
+  return first_name + "." + last_name
+  print(make_username("Ada", "Lovelace"))
+```
+
+# **3. Bookend Swap Problem**
+
+Create a function that takes a list containing at least two elements and unpacks the list into three variables, being first, middle, and last. The function must swap the first and last variables respectively.
+
+The following functions and methods were used in this problem:
+- `swap_bookends(item)` - A user-defined function that takes and unpacks a list with three variables, being first, middle , and last. The function must swap the first and last variables respectively.
+- `first, *middle, last = item` - An unpacking method wherein it separates the list with three variables, being first, middle, and last, and swapping the first and last variable while keeping the middle variable in place.
+- `return [last] + middle + [first]` - Returns the swapped variables but keeps the middle variable in place.
+
+Combining it all, the final function for this problem is as follows:
+
+```python
+def swap_bookends(item):
+  first, *middle, last = item
+  return [last] + middle + [first]
+
+  print(swap_bookends([1, 2, 3, 4, 5, 6]))
+```
+
+That is all!!!! Thank you so much for paying attention 
+
+To fully see the main phyton program, please visit the link provided below:
