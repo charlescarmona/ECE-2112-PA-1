@@ -77,3 +77,10 @@ def swap_bookends(item):
 That is all!!!! Thank you so much for paying attention 
 
 To fully see the main phyton program, please visit the link provided below:
+
+https://github.com/charlescarmona/ECE-2112-PA-1/blob/main/Programming%20Assignment%201.ipynb
+
+### **README file Version History:**
+
+THE INITIAL CONTENT WAS UPLOADED: August 27, 2026
+THE FINAL CONTENT WAS UPLOADED: August 27, 2026
